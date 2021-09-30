@@ -25,15 +25,37 @@ public class Student {
 	
 	// Update student grade
 	public void setGrade(int grade) {
-		
 		this.grade = grade;
-		
 	}
-	
 	
 	// Update fees paid
 	public void updateFeesPaid(int fees) {
 		feesPaid += fees;
+	}
+
+	// Return id of the student
+	public int getId() {
+		return id;
+	}
+
+	// Return name of the student
+	public String getName() {
+		return name;
+	}
+
+	// Return grade of the student
+	public int getGrade() {
+		return grade;
+	}
+
+	// Return fees paid by the student
+	public int getFeesPaid() {
+		return feesPaid;
+	}
+
+	// Return his total debt
+	public int getFeesTotal() {
+		return feesTotal;
 	}
 	
 	
