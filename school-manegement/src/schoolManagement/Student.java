@@ -29,8 +29,8 @@ public class Student {
 	}
 	
 	// Update fees paid
-	public void updateFeesPaid(int fees) {
-		feesPaid += fees;
+	public void payFees(int fees) {
+		feesPaid+=fees;
 	}
 
 	// Return id of the student
@@ -58,7 +58,9 @@ public class Student {
 		return feesTotal;
 	}
 	
-	
-	
+	/**
+	 * pays the selected amount
+	 * @param fees
+	 */
 	
 }

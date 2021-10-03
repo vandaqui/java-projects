@@ -17,17 +17,17 @@ public class Teacher {
 	
 	// Return the teacher's ID
 	public int getId() {
-		return this.id;
+		return id;
 	}
 	
 	// Return Name of the teacher
 	public int getSalary(){
-		return this.salary;
+		return salary;
 	}
 	
 	// Return salary of the teacher
 	public String getName() {	
-		return this.name;	
+		return name;	
 	}
 	
 	// Set the salary
@@ -35,4 +35,8 @@ public class Teacher {
 		this.salary = salary;
 	}
 	
+	// Adds to the salary and removes from the total money earned
+	public void receiveSalary(int salary) {
+		
+	}
 }

@@ -23,8 +23,6 @@ public class School {
 		totalMoneyEarned = 0;
 		totalMoneySpent = 0;
 		
-		
-		
 	}
 
 	/**
@@ -39,7 +37,7 @@ public class School {
 	 * Add a teacher to the school
 	 * @param teachers the teacher to be added
 	 */
-	public void addTeachers(Teacher teacher) {
+	public void addTeacher(Teacher teacher) {
 		teachers.add(teacher);
 	}
 
@@ -55,7 +53,7 @@ public class School {
 	 * Adds student to the school
 	 * @param student to be added
 	 */
-	public void addStudents(Student student) {
+	public void addStudent(Student student) {
 		students.add(student);
 	}
 
